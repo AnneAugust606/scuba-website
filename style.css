@@ -1,0 +1,86 @@
+body {
+  background: linear-gradient(
+    135deg,
+    rgb(82, 229, 231) 10%,
+    rgb(19, 12, 183) 100%
+  );
+}
+h1 {
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  color: rgb(140, 12, 38);
+}
+h2 {
+  text-align: center;
+  margin-top: 3px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+p {
+  text-align: center;
+}
+span {
+  color: rgba(140, 12, 38, 0.8);
+}
+.page {
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+  background-color: rgba(244, 193, 221, 0.75);
+  border-radius: 10px;
+  width: 80%;
+  padding: 20px;
+  margin: 10px auto;
+}
+.fanClub {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.list {
+  display: inline;
+  margin: 0 30px;
+}
+a {
+  text-decoration: none;
+  color: rgb(140, 12, 38);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: rgb(140, 12, 38);
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  display: block;
+  cursor: pointer;
+  box-shadow: 1px 1px 15px rgb(0 0 0 / 70%);
+  margin: 20px auto;
+  transition: all 150ms ease;
+}
+button:hover {
+  color: rgb(140, 12, 38);
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
+}

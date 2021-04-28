@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scuba Diving</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1><strong>I Love Scorpia</strong></h1>
+      <h2>✨Shes Adorable✨</h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/007/565/original/Scorpia!.jpeg?1618948895"
+        alt="Scorpia in the Crimson Waste"
+      />
+      <p>
+        Scorpia, although from the Horde, is a very caring and steadfast friend,
+        in addition to being a determined Force Captain. She acts chiefly on
+        behalf of her loyalty, shown in <span>'Perils of Peekablue'</span>, when
+        she stays behind so that everyone else could leave; by then, she'd
+        switched to fighting for the Rebellion. Scorpia, although her innocent
+        and bubbly demeanor, she’s is ruthlessly cleaver. As demonstrated in
+        episodes like <span>‘Princess Prom’</span>, and the
+        <span>'Perils of Peekablue'</span> <br />
+        <br />
+        Scorpia has a fear of lightning, which is ironic given her Runestone.
+        She is very chatty and energetic, her upbeat spirits are always there to
+        keep things lively. She is a people pleaser and will do anything for
+        others even when it is wrong. She describes herself as a "hugger" and
+        loves to make friends. Throughout the show, protecting her friends is
+        her main motivation.<br />
+        <br />
+        However, Scorpia can be very self-conscious and hard on herself. She has
+        mentioned that the other Princesses were made uncomfortable by her and
+        she feels judged by them. Scorpia copes with her insecurities and doubt
+        with daily affirmations and her favorite mantra;
+        <span
+          >"I am brave, strong, loyal, and I give great hugs. And I am going to
+          be the best friend I can be!"</span
+        >
+      </p>
+
+      <ul class="links">
+        <li class="list">
+          <a
+            href="https://she-raandtheprincessesofpower.fandom.com/wiki/Scorpia"
+            class="wiki"
+          >
+            Wiki (She-Ra)
+          </a>
+        </li>
+        <li class="list">
+          <a
+            href="https://he-man.fandom.com/wiki/Scorpia_(She-Ra_and_the_Princesses_of_Power)"
+            class="wiki"
+          >
+            Wiki (He-Man)
+          </a>
+        </li>
+        <li class="list">
+          <a
+            href="https://en.wikipedia.org/wiki/Scorpia_(Princesses_of_Power)"
+            class="wiki"
+          >
+            Wikipedia
+          </a>
+        </li>
+      </ul>
+
+      <ul class="fanClub">
+        <li>
+          <button class="yee">Join the <em>Scorpia Fanclub</em></button>
+        </li>
+        <li>
+          <button class="lame">Don't join</button>
+        </li>
+      </ul>
+    </div>
+    <script>
+      function updateHeading(newHeading) {
+        let heading = document.querySelector("h1");
+        heading.innerHTML = newHeading;
+      }
+      function saidYes() {
+        let name = prompt("what is your name?");
+        if (name.toLowerCase() === "perfuma") {
+          alert("✨We been knew Girlie✨");
+        } else if (name.toLowerCase() === "scorpia") {
+          alert("👑THE QUEEN HERSELF👑");
+        } else {
+          alert("Thank you " + name + "! You're one of us now!");
+          updateHeading("We Love Scorpia!");
+        }
+      }
+      function saidNo() {
+        alert("Coward");
+      }
+      let scorpiaButton = document.querySelector(".yee");
+      scorpiaButton.addEventListener("click", saidYes);
+
+      let scorpiaNo = document.querySelector(".lame");
+      scorpiaNo.addEventListener("click", saidNo);
+    </script>
+  </body>
+</html>
