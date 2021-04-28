@@ -31,11 +31,14 @@ p {
   text-align: center;
 }
 span {
-  color: rgba(140, 12, 38, 0.8);
+  color: rgba(12, 21, 140, 0.8);
+}
+.Scuba {
+  max-width: 375px;
 }
 .page {
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
-  background-color: rgba(244, 193, 221, 0.75);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 10px;
   width: 80%;
   padding: 20px;
