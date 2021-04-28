@@ -62,23 +62,20 @@
         </li>
       </ul>
 
-      <ul class="fanClub">
+      <ul class="scubaClub">
         <li>
           <button class="yee">Go Scuba Diving</button>
         </li>
       </ul>
     </div>
     <script>
-      function updateHeading(newHeading) {
-        let heading = document.querySelector("h1");
-        heading.innerHTML = newHeading;
-      }
       function saidYes() {
-        let name = prompt("what is your name?");
+        let firstName = prompt("What is your first name?");
         let email = prompt("What is your email?");
-        alert = `Thank you ${name}, we'll be in touch!`;
+        let thanks = "Thank you " + firstName + " we'll be in touch!";
+        alert(thanks);
       }
-      let Scubautton = document.querySelector(".yee");
+      let scubaButton = document.querySelector("button");
       scubaButton.addEventListener("click", saidYes);
     </script>
   </body>
